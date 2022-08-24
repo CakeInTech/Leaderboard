@@ -15,27 +15,12 @@
     <section class="scores">
         <div class="bghead">
             <h2>Recent scores</h2>
-            <input type="button" value="Refresh">
+            <input type="button" value="Refresh" id="btn-refresh">
         </div>
         
         <div class="bdList">
-            <ol>
-                <li>
-                    <span class="name">John Doe</span>
-                    <span class="score">100</span>
-                </li>
-                <li>
-                    <span class="name">John Doe</span>
-                    <span class="score">100</span>
-                </li>
-                <li>
-                    <span class="name">John Doe</span>
-                    <span class="score">100</span>
-                </li>
-                <li>
-                    <span class="name">John Doe</span>
-                    <span class="score">100</span>
-                </li>
+            <ol id="list">
+                
             </ol>
           
         </div>
@@ -44,9 +29,10 @@
     <section class="bdAdd">
         <h2>Add your score</h2>
         <form>
-            <input type="text" placeholder="Your Name"/>
-            <input type="text" placeholder="Your Score"/>
-            <input type="button" value="Submit"/>
+            <input class="name" type="text" placeholder="Your Name"/>
+            <input class="score" type="text" placeholder="Your Score"/>
+            <input class="add" type="button" value="Submit"/>
+            <p class="validation">Please add  board name and score</p>
         </form>
     </section>
     <script type="module" src="index.js"></script>
