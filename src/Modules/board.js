@@ -7,7 +7,7 @@ const getData = (data) => {
       li.className = 'list-group-item';
       const span = document.createElement('div');
       span.className = 'spanner';
-      span.textContent = `${element.user} Have scored a whopping ${element.score}`;
+      span.textContent = `${element.user}:  ${element.score}`;
       container.appendChild(li);
       li.appendChild(span);
       if (index % 2 !== 0) {
