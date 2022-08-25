@@ -22,7 +22,7 @@ body {
 .scores {
   background-color: white;
   display: flex;
-  border: 3px solid;
+  border: 1px solid #10162f;
   flex-direction: column;
   justify-content: space-between;
   width: 700px;
@@ -52,7 +52,7 @@ form input {
   display: flex;
   width: 400px;
   flex-direction: column;
-  border: 3px solid;
+  border: 1px solid #10162f;
   align-items: center;
   padding: 20px;
 }
