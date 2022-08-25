@@ -6,11 +6,11 @@ const form = (element) => {
   const name = document.querySelector('.name').value;
   const score = document.querySelector('.score').value;
 
-  if (name === '' && score === '') {
-    document.querySelector('.validation').style.display = 'block';
-  } else {
+  if (name !== '' && score !== '') {
     document.querySelector('.validation').style.display = 'none';
     player(name, score);
+  } else {
+    document.querySelector('.validation').style.display = 'block';
   }
 };
 

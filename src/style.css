@@ -161,8 +161,9 @@ form input[type="button"]:active {
 }
 
 .validation {
+  display: none;
   color: red;
-  font-size: 14px;
+  font-size: 11px;
   font-family: sans-serif;
 }
 
